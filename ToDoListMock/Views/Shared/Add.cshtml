@@ -1,0 +1,38 @@
+@model Ticket
+<h2>New Task</h2>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Add" method="post">
+    <input type="hidden" asp-for="Id"/>
+    <div class="form-group">
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Description:</label>
+        <input asp-for="Description" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="DueDate">Due Date:</label>
+        <input type="date" asp-for="DueDate" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="SprintNumber">Sprint:</label>
+        <input asp-for="SprintNumber" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="PointValue">Points:</label>
+        <input asp-for="PointValue" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="TicketStatusId">Status:</label>
+        <select asp-for="TicketStatusId" class="form-control"
+                asp-items="@(new SelectList(ViewBag.Statuses,
+                               "TicketStatusId", "Name"))">
+            <option value=""></option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+    <a asp-action="Index" class="btn btn-primary">Cancel</a>
+</form>
