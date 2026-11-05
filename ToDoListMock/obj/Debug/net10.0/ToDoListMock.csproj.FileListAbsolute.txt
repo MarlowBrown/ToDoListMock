@@ -211,3 +211,4 @@
 /home/talon/Documents/DMACC/ToDoListMock/ToDoListMock/ToDoListMock/obj/Debug/net10.0/ToDoListMock.pdb
 /home/talon/Documents/DMACC/ToDoListMock/ToDoListMock/ToDoListMock/obj/Debug/net10.0/ToDoListMock.genruntimeconfig.cache
 /home/talon/Documents/DMACC/ToDoListMock/ToDoListMock/ToDoListMock/obj/Debug/net10.0/ref/ToDoListMock.dll
+/home/talon/Documents/DMACC/ToDoListMock/ToDoListMock/ToDoListMock/obj/Debug/net10.0/ToDoListMock.sourcelink.json

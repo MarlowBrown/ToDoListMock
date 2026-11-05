@@ -51,6 +51,7 @@ public class HomeController : Controller
             return RedirectToAction("Index");
         }
         else {
+            ModelState.AddModelError("", "There are errors in the form");
             ViewBag.Statuses = context.TicketStatuses.ToList();
             return View(ticket);
         }
