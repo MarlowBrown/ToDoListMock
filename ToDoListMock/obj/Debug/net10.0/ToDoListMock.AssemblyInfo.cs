@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoListMock")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d529ffd261ab3876b90b37736fdcd880766e9a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dc2c762b161a8777a6fb6a91d96e487be5c7834")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoListMock")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoListMock")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
